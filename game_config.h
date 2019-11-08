@@ -13,7 +13,7 @@ const int O = 2; /* Human */
 const int NROWS = 3;
 const int NCOLS = 3;
 
-const int minimax_depth = 3; /* must be > 0 */
+const int minimax_depth = 5; /* must be > 0 */
 
 #define iter(i) for(int i = 0; i < NROWS; i++)
 #define double_iter(i, j) iter(i) iter(j)
