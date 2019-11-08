@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 ### Author: Alexander J. Gaidis (agaidis)
-### E-mail: alexander_gaidis@brown.edu
+### E-mail: `echo @cs.brown.edu|sed 's/^/agaidis/'`
 
 
 ![Top-Down View](IMG_2069.png)
