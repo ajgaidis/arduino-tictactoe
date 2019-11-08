@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-### Author: Alexander J. Gaidis (agaidis)
+### Author: Alexander Gaidis
 ### E-mail: `echo @cs.brown.edu|sed 's/^/agaidis/'`
 
 
