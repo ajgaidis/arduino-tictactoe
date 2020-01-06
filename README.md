@@ -1,11 +1,12 @@
 # Tic-Tac-Toe
-### Author: Alexander J. Gaidis (agaidis)
-### E-mail: alexander_gaidis@brown.edu
 
+#### Images and Videos
 
-![Top-Down View](IMG_2069.png)
+[![Youtube Example Video](img/yt.png)](https://youtu.be/a5LDn3w8Y24)
 
-![Zoomed-In View](IMG_2073.png)
+![Top-Down View](img/IMG_2069.png)
+
+![Zoomed-In View](img/IMG_2073.png)
 
 #### Project Overview
 
@@ -18,7 +19,7 @@ The hardware for this project consists of:
 * a handful of wires
 * 1 breadboard
 
-Both the LEDs and the switches are arranged into 3x3 matrices to resemble a 
+Both the LEDs and the switches are arranged into 3x3 matrices to resemble a
 tic-tac-toe board with a 1-to-1 mapping between switches to LEDs.
 
 The software for this project consists of 4 files:
@@ -42,7 +43,7 @@ making moves, undoing moves, and detecting wins, and more.
 Within the tictactoe.ino file is the algorithm that controls the AI component
 of this project. I use the minimax algorithm to choose the best move for the
 AI based on a set of heuristics I developed. These heuristics revolve around
-finding a winning board configuration or around the AI blocking the human 
+finding a winning board configuration or around the AI blocking the human
 player's moves to result in tie. In my first pass at coding the algorithm,
 creating a child state involved creating a new board object. Space wasn't an
 issue here, but time was and this approach caused my lights to not display
@@ -69,7 +70,7 @@ The following notable design decision were made:
 
 ###### ~ Software ~
 * AI uses the minimax algorithm (default depth of 3) to make its moves
-* Game state is abstracted to a Board class 
+* Game state is abstracted to a Board class
 * The AI doesn't use minimax for the first move to save on computation
 
 #### Install/Compile/Run
